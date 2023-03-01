@@ -1,0 +1,410 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    background:#4A6C6F;
+    transform: matrix(3bar);
+
+}
+
+.nombre {
+   
+    width: 100%;
+    height: 300px;
+    background: #1D84B5;
+    border-radius: 20px;
+}
+
+.nombre .content {
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    left: 32%;
+
+}
+.nombre .content .p1 {
+    color: #EDF5FC;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 20px;
+    font-size: 50px;
+}
+.nombre .content .p2 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 10px;
+    font-size: 25px;
+}
+.nombre .content .dotted{
+    border-style: dotted;
+}
+.nombre .content a{
+    font-size: 30px;
+}
+.facebook {
+    color: blue;
+}
+.instagram {
+    color: red;
+}
+.twitter {
+    color: white;
+}
+.linkedin {
+    color: aqua;
+}
+ .content a:hover { 
+transform: scale(1.2);
+}
+.nombre .img {
+    position:absolute ;
+    top:50%;
+    right: 70%;
+    width: 180px;
+    height: 180px;
+    margin-left: auto;
+    border-radius: 100%;
+    overflow: hidden;
+   
+}
+.name .img img {
+    width: 180px;
+    height: 320px;
+}
+.info {
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    background: #1D84B5;
+    border-radius: 20px;
+   
+   
+}
+.info .t1 {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid;
+   
+}
+.info .t2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+
+}
+.info .t3 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.info .t4 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .t5 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.info .t6 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .t7 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.info .t8 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .t9 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.info .t10 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.info .t11 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajo {
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    background: #1D84B5;
+    border-radius: 20px;
+}
+.trabajo .tr1 {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid; 
+}
+.trabajo .tr2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+    margin-right: 20px;
+}
+.trabajo .tr3 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajo .tr4 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajo .tr5 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.trabajo .tr6 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.educacion {
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    background: #1D84B5;
+    border-radius: 20px;
+}
+.educacion .e1 {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid;
+}
+.educacion .e2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+   
+    margin-right: 20px;
+}
+.educacion .e3 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.educacion .e4 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.educacion .e5 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.educacion .e6 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac {
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    background: #1D84B5;
+    border-radius: 20px;
+}
+.contac .c1{
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid;
+}
+.contac .c2 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c3 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c4 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c5 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c6 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c7 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c8 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c9 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c10 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.contac .c11 {
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+    font-size: large;
+    display: inline;
+}
+.habilidades {
+    margin: 5% auto;
+    padding: 20px;
+    width: 90%;
+    height: auto;
+    background: #1D84B5;
+    border-radius: 20px;
+}
+.habilidades .h1 {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid;
+}
+.contenedor {
+    color: aliceblue;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    font-size: x-large;
+    text-align: center;
+    font-weight: bolder;
+    border-bottom: solid;
+    display: flex;
+    justify-content: center;
+    gap: 20%;
+}
+
+#sidebar {
+    position: lef;
+    width: 100px;
+    height: 45%;
+    background: #2B9EB3;
+    margin: top auto; 
+    left: -200px;
+    
+}
+#sidebar .active {
+    left: 0;
+}
+#sidebar ul li {
+    color: #4A6C6F;
+    padding: 15px 10px ;
+    border-bottom: 1px solid rgba(100,100,100, 3) ;
+
+}
+
+#sidebar .toggle-btn span {
+    display: block;
+    width: 10px;
+    text-align: center;
+    font-size: 70px;
+    border:1px black;
+}
